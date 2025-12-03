@@ -94,8 +94,8 @@ for (l,dcline) in ref[:dcline]
 
     JuMP.set_lower_bound(p_dc[t_idx], dcline["pmint"])
     JuMP.set_upper_bound(p_dc[t_idx], dcline["pmaxt"])
-    JuMP.set_lower_bound(q_dc[f_idx], dcline["qmint"])
-    JuMP.set_upper_bound(q_dc[f_idx], dcline["qmaxt"])
+    JuMP.set_lower_bound(q_dc[t_idx], dcline["qmint"])
+    JuMP.set_upper_bound(q_dc[t_idx], dcline["qmaxt"])
 end
 
 
