@@ -1,4 +1,13 @@
-# PowerModelsAnnex.jl
+# Lethbridge Optimization Research Group (LORG) - Power
+
+A research project using prototypes derived from PowerModelsAnnex.
+
+## Specific source code folders
+
+- src/util-org: contains lower level functions that are useful for all sorts of experiments. For example: reading a case file and constructing the representative dictionary, constructing a graph from a case file, etc.
+- src/uncertainty-org: contains code to experiment dealing with uncertainty in the OPF problem.
+- src/basemodels-org: contains functions to create base OPF models such as AC-OPF, using the lower level functions from util-org to read the case files and create a solution dictionary.
+
 Dev:
 [![CI](https://github.com/lanl-ansi/PowerModelsAnnex.jl/workflows/CI/badge.svg)](https://github.com/lanl-ansi/PowerModelsAnnex.jl/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/lanl-ansi/PowerModelsAnnex.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/lanl-ansi/PowerModelsAnnex.jl)
