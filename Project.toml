@@ -1,13 +1,14 @@
 name = "PowerModelsAnnex"
 uuid = "6e471128-d39d-5672-b02b-a742bd1b77ed"
+version = "0.11.0"
 authors = ["Carleton Coffrin, et. al."]
 repo = "https://github.com/lanl-ansi/PowerModelsAnnex.jl"
-version = "0.11.0"
 
 [deps]
 InfrastructureModels = "2030c09a-7f63-5d83-885d-db604e0e9cc0"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 Memento = "f28f55f0-a522-5efc-85c2-fe41dfb9b2d9"
+PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
 PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 
 [compat]
@@ -15,6 +16,7 @@ InfrastructureModels = "~0.6, ~0.7"
 Ipopt = "1"
 JuMP = "1.15"
 Memento = "~1.0, ~1.1, ~1.2, ~1.3, ~1.4"
+PlotlyJS = "0.18.18"
 PowerModels = "~0.21"
 julia = "1.6"
 
@@ -24,4 +26,3 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Ipopt", "Test"]
-
